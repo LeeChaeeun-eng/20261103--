@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>사전등록 | ILLU MARKET 2026</title><link rel="stylesheet" href="css/style.css"><link rel="stylesheet" href="css/register.css"><script src="js/register.js" defer></script>
+</head>
+<body class="register-page">
+<header class="site-header"><a class="brand" href="index.html">illu<span>market</span><b>♥</b></a><a class="header-cta" href="index.html">홈으로 돌아가기 ↗</a></header>
+<main class="register-wrap">
+  <a class="back-link" href="index.html">← 메인으로 돌아가기</a>
+  <div class="register-heading"><div class="section-label">WELCOME TO ILLU MARKET</div><h1>일루 마켓<br><em>사전등록</em></h1><p>좋아하는 취향을 만나는 하루, 지금 예약해 보세요!<br>사전등록은 무료이며 클래스는 별도 예약이 필요합니다.</p></div>
+  <form id="registration-form" class="registration-form">
+    <label>이름 <input type="text" name="name" placeholder="이름을 입력해 주세요" required></label>
+    <label>연락처 <input type="tel" name="phone" placeholder="010-0000-0000" required pattern="[0-9\-]{9,13}"></label>
+    <label>이메일 <input type="email" name="email" placeholder="example@email.com" required></label>
+    <label>방문 날짜 <select name="date" required><option value="">방문 날짜를 선택해 주세요</option><option>11월 21일 토요일</option><option>11월 22일 일요일</option><option>양일 모두</option></select></label>
+    <label>참여 프로그램 <select name="program"><option>일반 관람 및 굿즈 마켓</option><option>캐릭터 드로잉 클래스 (11/21)</option><option>나만의 스티커 클래스 (11/22)</option><option>작가 사인회 (11/22)</option></select></label>
+    <label>방문 인원 <select name="people"><option>1명</option><option>2명</option><option>3명</option><option>4명</option></select></label>
+    <label class="agree"><input type="checkbox" required> 개인정보 수집 및 이용에 동의합니다. (필수)</label>
+    <button class="btn-primary submit-btn" type="submit">사전등록 신청하기 <b>↗</b></button>
+    <p class="form-note">※ 본 페이지는 웹사이트 제작 시연을 위한 가상 행사 신청 페이지입니다. 입력 정보는 서버로 전송되거나 저장되지 않습니다.</p>
+  </form>
+  <div class="success-message" id="success-message" role="status" aria-live="polite"><div>♥</div><h2>신청이 완료되었어요!</h2><p>일루 마켓에서 만나요. 방문 정보를 확인해 주세요.</p><a class="btn-primary" href="index.html">메인 페이지로 돌아가기</a></div>
+</main>
+<footer class="site-footer"><a class="brand" href="index.html">illu<span>market</span><b>♥</b></a><span>© 2026 ILLU MARKET</span></footer>
+</body></html>
